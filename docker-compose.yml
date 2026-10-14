@@ -9,14 +9,3 @@ services:
       - .env
     volumes:
       - ./bot_database.db:/app/bot_database.db
-version: '3.8'
-
-services:
-  bot:
-    build: .
-    container_name: summarizer_bot_isolated
-    restart: always
-    env_file:
-      - .env
-    volumes:
-      - ./bot_database.db:/app/bot_database.db
