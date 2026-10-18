@@ -44,7 +44,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/Gothrun/summarizer_bot.git
+git clone https://github.com/Gothrun/ai-study-assistant.git
 cd summarizer_bot
 Создайте файл .env в корне проекта и укажите все необходимые ключи:
 env
